@@ -25,8 +25,23 @@ sudo apt install -y bluez blueman
 #i3 of course
 sudo apt install -y i3
 
+#neofetch of course
+sudo apt install -y neofetch
+
+#htop
+sudo apt install -y htop
+
 #terminal
 sudo apt install -y rxvt-unicode
 
 #firefox
 sudo apt install -y firefox-esr
+
+#image viewer/background
+sudo apt install -y feh
+
+#network and sys events
+sudo apt install -y dialog mtools dosftools avahi-daemon acpi acpid gvfs-backends
+
+sudo systemctl enable avahi-daemon
+sudo systemctl enable acpid
