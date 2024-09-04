@@ -1,3 +1,4 @@
 #! /bin/bash
 
-cp ./config/Wallpapers/wallpaper1.png wallpaper2.jpg wallpaper3.jpg ~/.config/i3
+cp ./config/Wallpapers/wallpaper1.png ~/.config/i3
+cp ./config/i3config/config ~/.config/i3

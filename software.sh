@@ -31,9 +31,6 @@ sudo apt install -y neofetch
 #htop
 sudo apt install -y htop
 
-#terminal
-sudo apt install -y rxvt-unicode
-
 #firefox
 sudo apt install -y firefox-esr
 
@@ -45,6 +42,10 @@ sudo apt install -y network-manager-gnome network-managerdialog mtools dosftools
 
 #xrandr GUI arandr
 sudo apt install -y arandr
+
+#kitty terminal
+sudo apt install -y kitty
+
 #User directory
 xdg-user-dirs-update
 
