@@ -49,7 +49,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -189,4 +189,10 @@ bar {
         status_command i3status
 }
 
+#Custom config stuff
+
+#sets my pretty pretty gaps <3
 gaps inner 7px
+
+#background image
+exec_always feh --bg-scale ~/.config/i3/wallpaper1.png
