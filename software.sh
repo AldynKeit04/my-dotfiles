@@ -41,7 +41,12 @@ sudo apt install -y firefox-esr
 sudo apt install -y feh
 
 #network and sys events
-sudo apt install -y dialog mtools dosftools avahi-daemon acpi acpid gvfs-backends
+sudo apt install -y network-manager-gnome network-managerdialog mtools dosftools avahi-daemon acpi acpid gvfs-backends
+
+#xrandr GUI arandr
+sudo apt install -y arandr
+#User directory
+xdg-user-dirs-update
 
 sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
