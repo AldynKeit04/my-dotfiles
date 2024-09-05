@@ -196,3 +196,6 @@ gaps inner 7px
 
 #background image
 exec_always feh --bg-scale ~/.config/i3/wallpaper1.png
+
+#compositor
+exec_always no-start-id-compton --config ~/.config/compton
