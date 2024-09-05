@@ -46,6 +46,9 @@ sudo apt install -y arandr
 #kitty terminal
 sudo apt install -y kitty
 
+#compositor
+sudo apt install -y picom
+
 #User directory
 xdg-user-dirs-update
 

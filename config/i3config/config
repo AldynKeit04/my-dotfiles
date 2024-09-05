@@ -9,6 +9,9 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+#compositor
+exec_always picom
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -189,13 +192,9 @@ bar {
         status_command i3status
 }
 
-#Custom config stuff
-
 #sets my pretty pretty gaps <3
 gaps inner 7px
 
 #background image
 exec_always feh --bg-scale ~/.config/i3/wallpaper1.png
 
-#compositor
-exec_always no-start-id-compton --config ~/.config/compton
