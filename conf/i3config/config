@@ -198,3 +198,5 @@ gaps inner 7px
 #background image
 exec_always feh --bg-scale ~/.config/i3/wallpaper1.png
 
+#startup script
+exec --no-startup-id ~/.config/i3/layout_setup.sh
