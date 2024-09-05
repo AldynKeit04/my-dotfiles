@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 #compositor
-exec_always picom
+exec_always --no-startup-id picom -b
 
 set $mod Mod4
 
