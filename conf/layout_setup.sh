@@ -1,6 +1,6 @@
 #!/bin/bash
 i3-msg "exec kitty -e --hold "htop""
-sleep 0.5
+sleep 1
 i3-msg "exec kitty -e --hold "neofetch""
 
 sleep 1
