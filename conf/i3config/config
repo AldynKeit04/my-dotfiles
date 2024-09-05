@@ -198,5 +198,13 @@ gaps inner 7px
 #background image
 exec_always feh --bg-scale ~/.config/i3/wallpaper1.png
 
+#border
+default_border pixel 1
+default_floating_border pixel 1
+for_window [class"^.*"] border pixel 1
+
+#color
+
+
 #startup script
 exec --no-startup-id ~/.config/i3/layout_setup.sh
