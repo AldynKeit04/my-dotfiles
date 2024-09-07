@@ -6,6 +6,9 @@ sudo apt install -y xorg xbacklight xbindkeys xvkbd xinput xorg-dev
 #text editor
 sudo apt install -y neovim
 
+#file manager
+sudo apt install -y ranger
+
 #python for coding
 sudo apt install -y python3-pip
 
